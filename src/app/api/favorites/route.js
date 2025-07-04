@@ -1,5 +1,5 @@
-import { dbConnect } from "../../../lib/db";
-import Favorite from '../../../../models/favorites';
+import { dbConnect } from "../../lib/db";
+import Favorite from '../../models/favorites';
 
 // GET /api/favorites → get all favorite recipes
 export async function GET() {
