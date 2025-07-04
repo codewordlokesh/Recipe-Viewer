@@ -1,5 +1,6 @@
 import { dbConnect } from "../../lib/db";
-import { favorites } from "../../../..app/favorites";
+import Favorite from '../../../../models/favorites';
+
 
 // GET /api/favorites/:id → get one favorite
 export async function GET(request, { params }) {
